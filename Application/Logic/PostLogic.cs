@@ -12,7 +12,7 @@ public class PostLogic : IPostLogic
     public PostLogic(IPostDao postDao, IUserDao userDao)
     {
         this.postDao = postDao;
-        this.userDao = userDao;
+        this.userDao = userDao; 
     }
 
     public async Task<Post> CreateAsync(PostCreationDto dto)
