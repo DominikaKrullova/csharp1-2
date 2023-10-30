@@ -58,9 +58,4 @@ public class UserFileDao : IUserDao
         );
         return Task.FromResult(existing);
     }
-
-    public Task DeleteAsync(int id)
-    {
-        throw new NotImplementedException();
-    }
 }
